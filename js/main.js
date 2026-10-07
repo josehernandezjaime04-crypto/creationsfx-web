@@ -55,7 +55,7 @@
       const clone = group.cloneNode(true);
       clone.setAttribute('aria-hidden', 'true');
       track.appendChild(clone);
-      track.style.setProperty('--marquee-dur', (group.scrollWidth / 70) + 's'); // ~70 px/s
+      track.style.setProperty('--marquee-dur', (group.scrollWidth / 80) + 's'); // ~80 px/s
     }
     buildMarquee();
     let rt, lastW = window.innerWidth;
