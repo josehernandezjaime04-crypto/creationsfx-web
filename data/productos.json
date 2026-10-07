@@ -1,0 +1,249 @@
+{
+  "lineas": {
+    "sangres": {
+      "num": "01",
+      "titulo": "Sangres",
+      "intro": "Sangre artificial de fabricación propia, con una textura para cada momento: desde charcos y salpicaduras hasta heridas secas de días o sangre en la boca.",
+      "imagen": "assets/img/productos/blood-dry-2.jpg",
+      "nota": "Remueve antes de usar: la temperatura ambiente puede alterar la densidad del producto.",
+      "grupos": [
+        { "titulo": "Sangres", "productos": ["blood-puddle", "blood-honey", "blood-dry", "sangre-comestible"] },
+        { "titulo": "Complementos y formatos", "productos": ["blood-dye", "formato-40ml"] }
+      ]
+    },
+    "bonzos": {
+      "num": "02",
+      "titulo": "Fuego / Bonzos",
+      "intro": "Todo lo necesario para prender fuego a un especialista con seguridad: geles de fuego, gel protector, líquidos y piezas de silicona hechas a medida.",
+      "imagen": "assets/img/cat-stunts.jpg",
+      "nota": "Material para uso profesional. Trabajar con fuego es peligroso y debe hacerlo siempre personal especializado.",
+      "grupos": [
+        { "titulo": "Geles y líquidos", "productos": ["fire-gel", "fire-gel-eco", "gel-protector", "fire-water", "retardante", "fuego-de-colores"] },
+        { "titulo": "Silicona a medida", "productos": ["mascara-silicona", "guantes-silicona"] }
+      ]
+    },
+    "protecciones": {
+      "num": "03",
+      "titulo": "Protecciones",
+      "intro": "Protecciones HEBO certificadas, finas y ajustadas para llevarlas bajo el vestuario sin que se noten en cámara. También vendemos los recambios por separado.",
+      "imagen": "assets/img/cat-protecciones.jpg?v=2",
+      "nota": "Si dudas de la talla, escríbenos y te ayudamos a elegirla.",
+      "grupos": [
+        { "titulo": "Chaquetas y chalecos", "productos": ["defender-pro-jacket", "chaleco-defender-pro", "chaleco-race-defender-pro"] },
+        { "titulo": "Rodilleras, coderas y espinilleras", "productos": ["rodillera-defender-pro", "codera-defender-pro", "espinillera-defender"] },
+        { "titulo": "Recambios", "productos": ["proteccion-pecho", "pu-espalda-nivel-1", "proteccion-rodilla-plus", "pad-codo-rodilla", "pu-tibia", "proteccion-hombro"] }
+      ]
+    }
+  },
+
+  "productos": {
+    "blood-puddle": {
+      "nombre": "Blood Puddle",
+      "resumen": "Sangre muy líquida para charcos, jeringas e impactos pirotécnicos.",
+      "descripcion": "Preparado de sangre artificial para efectos totalmente realistas. Su fórmula evita que se seque sobre la superficie, así que es fácil de limpiar y sale con un simple lavado. Pensada para rodajes y espectáculos de todo tipo.",
+      "opciones": { "titulo": "Formato", "valores": ["5 l", "Pack 12 × 40 ml"] },
+      "imagenes": ["blood-puddle-1.jpg", "blood-puddle-2.jpg", "blood-puddle-3.jpg"]
+    },
+    "blood-honey": {
+      "nombre": "Blood Honey",
+      "resumen": "Sangre suave y comestible para heridas faciales.",
+      "descripcion": "Preparada para que aguante donde se aplica en cualquier situación, incluida la boca, ya que es comestible. Su color es algo más brillante que el del resto de sangres.",
+      "opciones": { "titulo": "Formato", "valores": ["750 ml", "5 l", "Pack 12 × 40 ml"] },
+      "imagenes": ["blood-honey-1.jpg", "blood-honey-2.jpg"]
+    },
+    "blood-dry": {
+      "nombre": "Blood Dry",
+      "resumen": "Sangre muy espesa para heridas de varios días.",
+      "descripcion": "Simula sangre seca y muy pegajosa. Ideal para heridas faciales que tienen que parecer de días.",
+      "opciones": { "titulo": "Formato", "valores": ["250 cc", "1 kg", "Pack 12 × 40 ml"] },
+      "imagenes": ["blood-dry-1.jpg", "blood-dry-2.jpg", "blood-dry-3.jpg", "blood-dry-4.jpg"]
+    },
+    "sangre-comestible": {
+      "nombre": "Sangre comestible",
+      "resumen": "Sangre especial para la boca, totalmente comestible.",
+      "descripcion": "Formulada para usarse dentro de la boca: es totalmente comestible y tiene buen sabor.",
+      "opciones": { "titulo": "Formato", "valores": ["250 ml", "750 ml", "Pack 12 × 40 ml", "Otra cantidad"] },
+      "imagenes": ["sangre-comestible-1.jpg"]
+    },
+    "blood-dye": {
+      "nombre": "Blood Dye",
+      "resumen": "Colorante natural comestible para oscurecer la sangre.",
+      "descripcion": "Colorante natural muy concentrado: con muy poca cantidad oscureces cualquiera de nuestras sangres hasta el tono que necesites.",
+      "opciones": { "titulo": "Formato", "valores": ["250 cc", "1 l"] },
+      "imagenes": ["blood-dye-1.jpg", "blood-dye-2.jpg"]
+    },
+    "formato-40ml": {
+      "nombre": "Formato de 40 ml",
+      "resumen": "Envases de 40 ml con la sangre que elijas, listos para llevar al set.",
+      "descripcion": "Pensado para que maquillaje, arte o el equipo de efectos lleven siempre sangre encima durante el rodaje. Los preparamos con la sangre que prefieras. Pregúntanos por las unidades.",
+      "opciones": { "titulo": "Sangre", "valores": ["Blood Puddle", "Blood Honey", "Blood Dry", "Blood Dye", "Sangre comestible"] },
+      "imagenes": ["formato-40ml-1.jpg"]
+    },
+
+    "fire-gel": {
+      "nombre": "Fire Gel",
+      "resumen": "Crema espesa especial para bonzos.",
+      "descripcion": "Crema espesa, no moldeable, para colocar sobre la ropa ignífuga en un bonzo o para crear fuegos localizados en distintas superficies: telas, madera, hierro…",
+      "opciones": { "titulo": "Envase", "valores": ["1 kg", "10 kg"] },
+      "imagenes": ["fire-gel-1.jpg"]
+    },
+    "fire-gel-eco": {
+      "nombre": "Fire Gel Eco",
+      "resumen": "Llama muy limpia y sin humo negro, ideal para interiores.",
+      "descripcion": "Crema para hacer fuegos controlados en interiores. No produce humo negro y la llama se mueve más despacio que con Fire Gel.",
+      "opciones": { "titulo": "Envase", "valores": ["1 kg", "10 kg"] },
+      "imagenes": ["fire-gel-eco-1.jpg"]
+    },
+    "gel-protector": {
+      "nombre": "Fire Gel Protector 3.0",
+      "resumen": "Gel protector para el cuerpo, ahora transparente.",
+      "descripcion": "Se aplica sobre el cuerpo, bajo la ropa del bonzo. La nueva versión es transparente, así que no se ve en cámara y permite proteger también la cabeza.",
+      "opciones": { "titulo": "Envase", "valores": ["1 kg", "10 kg"] },
+      "imagenes": ["gel-protector-1.jpg", "gel-protector-2.jpg"]
+    },
+    "fire-water": {
+      "nombre": "Fire Water",
+      "resumen": "Líquido de baja toxicidad para escupir fuego en espectáculos.",
+      "descripcion": "Preparado para generar fuego y humo en espectáculos de todo tipo, especialmente faquires y escupefuegos.",
+      "aviso": "Nocivo: puede provocar daño pulmonar si se ingiere y la exposición repetida reseca la piel. No ingerir y mantener fuera del alcance de los niños. En caso de accidente, llama al Servicio de Información Toxicológica (915 620 420). Solo para personal experto.",
+      "opciones": { "titulo": "Envase", "valores": ["5 l"] },
+      "imagenes": ["fire-water-1.jpg", "fire-water-2.jpg", "fire-water-3.jpg"]
+    },
+    "retardante": {
+      "nombre": "Retardante de llama",
+      "resumen": "Frena la propagación de la llama.",
+      "descripcion": "Producto que evita que la llama se extienda rápidamente. Se puede aplicar en distintas texturas.",
+      "opciones": { "titulo": "Envase", "valores": ["5 l"] },
+      "imagenes": ["retardante-1.jpg"]
+    },
+    "fuego-de-colores": {
+      "nombre": "Fuego de colores",
+      "resumen": "Llamas verdes, rojas, amarillas y moradas.",
+      "descripcion": "Para conseguir llamas de color en escena.",
+      "bajoPedido": true,
+      "opciones": { "titulo": "Color", "valores": ["Verde", "Rojo", "Amarillo", "Morado"] },
+      "imagenes": ["fuego-de-colores-1.jpg"]
+    },
+    "mascara-silicona": {
+      "nombre": "Máscara de silicona",
+      "resumen": "Máscara a medida para bonzos completos.",
+      "descripcion": "Evita que la llama llegue a la piel y la protege del calor en los bonzos completos. Se hace a medida y con el grosor que necesites.",
+      "bajoPedido": true,
+      "imagenes": ["mascara-silicona-1.jpg", "mascara-silicona-2.jpg", "mascara-silicona-3.jpg"]
+    },
+    "guantes-silicona": {
+      "nombre": "Guantes de silicona",
+      "resumen": "Para simular un bonzo con las manos desnudas.",
+      "descripcion": "Guantes de silicona de alta calidad con un acabado muy real. El grosor depende de cuánto tiempo tengan que aguantar, y si hace falta se hacen a medida.",
+      "bajoPedido": true,
+      "imagenes": ["guantes-silicona-1.jpg", "guantes-silicona-2.jpg"]
+    },
+
+    "defender-pro-jacket": {
+      "nombre": "Defender Pro Jacket",
+      "marca": "HEBO",
+      "resumen": "Chaqueta protectora integral con protecciones desmontables.",
+      "descripcion": "Chaqueta ergonómica, flexible y ajustada, con protecciones desmontables certificadas en pecho, espalda, hombros y codos.",
+      "precio": 147.00,
+      "ficha": { "Certificados": "Pecho EN 1621-3 · Espalda EN 1621-2 · Resto EN 1621-1", "Composición": "78,7 % poliuretano, 15 % poliéster, 6,3 % poliamida" },
+      "opciones": { "titulo": "Talla", "valores": ["XS-S", "M-L", "XL-XXL"] },
+      "imagenes": ["defender-pro-jacket-1.jpg", "defender-pro-jacket-2.jpg"]
+    },
+    "chaleco-defender-pro": {
+      "nombre": "Chaleco Defender Pro",
+      "marca": "HEBO",
+      "resumen": "Chaleco integral que protege abdomen y espalda.",
+      "descripcion": "Lleva una protección extraíble y homologada en el pecho y otra de mayor tamaño en la espalda. Cremallera en el lado izquierdo para ponérselo fácilmente.",
+      "precio": 86.74,
+      "ficha": { "Certificados": "Pecho EN 1621-3 · Espalda EN 1621-2", "Composición": "74,2 % poliuretano, 21 % poliéster, 4,8 % poliamida" },
+      "opciones": { "titulo": "Talla", "valores": ["XS-S", "M-L", "XL-XXL"] },
+      "imagenes": ["chaleco-defender-pro-1.jpg", "chaleco-defender-pro-2.jpg"]
+    },
+    "chaleco-race-defender-pro": {
+      "nombre": "Chaleco Race Defender Pro 2.0",
+      "marca": "HEBO",
+      "resumen": "Protector de espalda ligero y transpirable.",
+      "descripcion": "Protege las zonas más críticas de la espalda. Tejido de rejilla elástica en cuatro direcciones: muy resistente, cómodo, transpirable y de secado rápido.",
+      "precio": 80.96,
+      "ficha": { "Certificados": "EN 1621-2:2014", "Composición": "100 % poliuretano" },
+      "opciones": { "titulo": "Talla", "valores": ["XS-S", "M-L", "XL-XXL"] },
+      "imagenes": ["chaleco-race-defender-pro-1.jpg", "chaleco-race-defender-pro-2.jpg"]
+    },
+    "rodillera-defender-pro": {
+      "nombre": "Rodillera Defender Pro 2.0",
+      "marca": "HEBO",
+      "resumen": "Rodillera fina, pensada para ir invisible bajo la ropa.",
+      "descripcion": "Tejido compresivo elástico en cuatro direcciones, transpirable y de secado rápido, con refuerzo antifricción en la rodilla. La silicona antideslizante la mantiene en su sitio y las protecciones homologadas se pueden desmontar.",
+      "precio": 62.01,
+      "ficha": { "Certificados": "EN 1621-1", "Composición": "63,6 % poliuretano, 31,4 % poliamida, 5 % poliéster" },
+      "opciones": { "titulo": "Talla", "valores": ["XS-S", "M-L", "XL-XXL"] },
+      "imagenes": ["rodillera-defender-pro-1.jpg", "rodillera-defender-pro-2.jpg", "rodillera-defender-pro-3.jpg"]
+    },
+    "codera-defender-pro": {
+      "nombre": "Codera Defender Pro",
+      "marca": "HEBO",
+      "resumen": "Codera homologada de máximo rendimiento.",
+      "descripcion": "Fabricada en poliamida con poliéster de alta resistencia, con protección homologada.",
+      "ficha": { "Certificados": "EN 1621-1", "Composición": "63,6 % poliuretano, 31,4 % poliamida, 5 % poliéster" },
+      "opciones": { "titulo": "Talla", "valores": ["XS-S", "M-L", "XL-XXL"] },
+      "imagenes": ["codera-defender-pro-1.jpg"]
+    },
+    "espinillera-defender": {
+      "nombre": "Espinillera Defender",
+      "marca": "HEBO",
+      "resumen": "Protector de espinilla ligero y transpirable.",
+      "descripcion": "Tejido de alta resistencia, muy elástico para ajustarse a cualquier gemelo, con cintas elásticas arriba y abajo que la mantienen en su sitio.",
+      "precio": 39.91,
+      "ficha": { "Composición": "Exterior 85 % poliéster, 15 % elastano · Protector 100 % poliuretano" },
+      "opciones": { "titulo": "Talla", "valores": ["XS-S", "M-L", "XL-XXL"] },
+      "imagenes": ["espinillera-defender-1.jpg", "espinillera-defender-2.jpg", "espinillera-defender-3.jpg"]
+    },
+    "proteccion-pecho": {
+      "nombre": "Protección de pecho",
+      "marca": "HEBO",
+      "resumen": "Recambio de pecho, color rojo.",
+      "precio": 13.19,
+      "opciones": { "titulo": "Talla", "valores": ["XS-S", "M-L", "XL-XXL"] },
+      "imagenes": ["proteccion-pecho-1.jpg"]
+    },
+    "pu-espalda-nivel-1": {
+      "nombre": "Protección de espalda nivel 1",
+      "marca": "HEBO",
+      "resumen": "Recambio de espalda de poliuretano.",
+      "precio": 20.62,
+      "opciones": { "titulo": "Talla", "valores": ["XS-S", "M-L", "XL-XXL"] },
+      "imagenes": ["pu-espalda-nivel-1-1.jpg"]
+    },
+    "proteccion-rodilla-plus": {
+      "nombre": "Protección de rodilla Plus",
+      "marca": "HEBO",
+      "resumen": "Recambio de rodilla largo.",
+      "precio": 24.76,
+      "opciones": { "titulo": "Talla", "valores": ["Única"] },
+      "imagenes": ["proteccion-rodilla-plus-1.jpg"]
+    },
+    "pad-codo-rodilla": {
+      "nombre": "Pad de codo y rodilla",
+      "marca": "HEBO",
+      "resumen": "Recambio para codo o rodilla, adulto.",
+      "precio": 14.01,
+      "ficha": { "Composición": "100 % poliuretano" },
+      "imagenes": ["pad-codo-rodilla-1.jpg"]
+    },
+    "pu-tibia": {
+      "nombre": "Protección de tibia",
+      "marca": "HEBO",
+      "resumen": "Recambio de protección tibial, adulto.",
+      "precio": 9.05,
+      "imagenes": ["pu-tibia-1.jpg"]
+    },
+    "proteccion-hombro": {
+      "nombre": "Protección de hombro",
+      "marca": "HEBO",
+      "resumen": "Recambio de hombro certificado.",
+      "ficha": { "Certificados": "EN 1621-1", "Composición": "100 % poliuretano" },
+      "opciones": { "titulo": "Talla", "valores": ["Única"] },
+      "imagenes": ["proteccion-hombro-1.jpg"]
+    }
+  }
+}
