@@ -466,3 +466,20 @@ body.modal-open{overflow:hidden;}
 @media (hover: none){ .slide-arrow{opacity:0.75;} }
 @media (prefers-reduced-motion: reduce){ .slideshow .slide{transform:none;transition:opacity .4s ease;} }
 .line-hero-text h1.h1-long{font-size:clamp(3rem,5.6vw,6.4rem);white-space:nowrap;}
+
+/* ---------- Más servicios ---------- */
+.more-services{padding:64px 24px 72px;border-top:1px solid var(--line);text-align:center;}
+.more-label{
+  font-size:0.74rem;font-weight:500;letter-spacing:0.35em;text-transform:uppercase;
+  color:var(--grey);margin-bottom:28px;
+}
+.more-grid{display:flex;flex-wrap:wrap;justify-content:center;gap:48px;}
+.more-item{display:flex;flex-direction:column;align-items:center;gap:8px;width:200px;}
+.more-item img{
+  height:88px;width:100%;object-fit:contain;margin-bottom:6px;
+  filter:grayscale(1);opacity:0.55;transition:filter .35s, opacity .35s, transform .35s;
+}
+.more-name{font-family:var(--ff-display);font-size:1.3rem;letter-spacing:0.08em;color:var(--cream-dim);transition:color .35s;}
+.more-desc{font-size:0.78rem;color:var(--grey);line-height:1.4;}
+.more-item:hover img,.more-item:focus-visible img{filter:none;opacity:1;transform:translateY(-3px);}
+.more-item:hover .more-name,.more-item:focus-visible .more-name{color:var(--red);}
