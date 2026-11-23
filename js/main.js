@@ -109,4 +109,15 @@
   }
 
   document.getElementById('year').textContent = new Date().getFullYear();
+
+  // Dos clics seguidos en "© 2026 creationsFX" del pie abren el visor privado de especialistas
+  const marca = document.getElementById('pieMarca');
+  if (marca) {
+    let ultimo = 0;
+    marca.addEventListener('click', () => {
+      const ahora = Date.now();
+      if (ahora - ultimo < 450) window.location.href = marca.dataset.admin;
+      ultimo = ahora;
+    });
+  }
 })();

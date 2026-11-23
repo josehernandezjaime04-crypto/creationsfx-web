@@ -483,3 +483,4 @@ body.modal-open{overflow:hidden;}
 .more-desc{font-size:0.78rem;color:var(--grey);line-height:1.4;}
 .more-item:hover img,.more-item:focus-visible img{filter:none;opacity:1;transform:translateY(-3px);}
 .more-item:hover .more-name,.more-item:focus-visible .more-name{color:var(--red);}
+.pie-marca{cursor:default;user-select:none;-webkit-user-select:none;-webkit-tap-highlight-color:transparent;}
